@@ -768,11 +768,12 @@ let marks6value = marks6.value;
        let f = parseInt(mk6.textContent);
       
       let z = (a+b+c+d+h+f)/6
+    
+        let l = z.toFixed(3)
+      gpa.textContent = l;
 
-      gpa.textContent = z;
 
-
-result.style.display = "block"
+result.style.display = "block"  
       
         
 })
