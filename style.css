@@ -128,13 +128,13 @@ td {
   }
 
   .box1 {
-    max-width: 80%;
+    max-width: 90%;
     align-items: center;
     margin-top: 20px;
   }
 
   .result {
-    max-width: 100%;
+    max-width: 90%;
     max-height: auto;
     margin: 20px 0 20px 0;
   }
