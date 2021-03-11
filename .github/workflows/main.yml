@@ -1,4 +1,4 @@
-http://gpa-calculator-uos.surge.sh/http://gpa-calculator-uos.surge.sh/name: Deploy Website
+name: Deploy Website
 
 on: [push]
 
