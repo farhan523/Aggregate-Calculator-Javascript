@@ -24,10 +24,19 @@ let g6 = document.querySelector('#g6')
 
 let gpa = document.querySelector('#gpa')
 
+let boom = document.querySelectorAll('.boom');
+
+
 
 let result = document.querySelector('.result');
 
 
+
+boom.forEach((orange)=>{
+    orange.addEventListener('click',()=>{
+        result.style.display = "none"
+    })
+})
 
 
 

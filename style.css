@@ -1,48 +1,53 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-color: #ede0d4;
+}
+
+#head {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #ede0d4;
 }
 
 .container {
-  width: 100%;
-  height: 150vh;
-
-  border: 2px solid red;
-  background-color: chartreusess;
+  max-width: 1100px;
+  height: auto;
+  /* border: 2px solid red; */
   margin: auto;
   display: flex;
   /* flex-wrap: wrap; */
-
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7ede2;
+  /* flex-flow: column; */
 }
 
-.header {
-  max-width: 100%;
-  height: 15%;
-  background-color: #edf6f9;
-  text-align: center;
-  padding: 3%;
-}
-
-.form-control {
-  /* background-color: chartreuse; */
+.box1 {
+  max-width: 45%;
+  height: 80%;
+  /* border: 2px solid red; */
+  background-color: #f5f0eb;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .marks-form {
-  text-align: center;
+  display: flex;
   width: 100%;
-  height: 50%;
-  background-color: #efd3d7;
-  padding-top: 30%;
+  height: 100%;
+  flex-flow: column;
+  justify-items: center;
+  align-items: center;
 }
-.form-control input {
-  margin: 8px;
-  padding: 5px;
-  width: 60%;
-  border-radius: 4px;
+
+.form-control {
+  /* margin-left: 10%; */
 }
 
 .submit-btn {
@@ -50,6 +55,7 @@
   border-radius: 3px;
   width: 120px;
   font-size: 1em;
+  margin-left: 10%;
 }
 
 .submit-btn:hover {
@@ -57,22 +63,63 @@
   color: black;
 }
 
+.form-control input {
+  margin: 8px;
+  padding: 5px;
+  width: 60%;
+  border-radius: 4px;
+}
+
+#total {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.total2 {
+  padding-bottom: 10px;
+}
+
+.total2s {
+  margin-right: 10px;
+}
+
 .result {
-  text-align: center;
-  width: 100%;
-  height: 50%;
+  max-width: 45%;
+  height: 80%;
+  /* border: 2px solid red; */
+  background-color: #f5f0eb;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
   display: none;
 }
 
-table {
-  border: 2px solid black;
-  padding: 7px;
-  width: 100%;
+.cp {
+  color: red;
 }
 
-th,
-td {
-  /* border: 2px solid black; */
-  padding: 5px;
-  margin: 5px;
+.cp1 {
+  color: rgb(18, 18, 194);
+}
+
+.cp2 {
+  color: rgb(5, 211, 5);
+}
+
+@media (max-width: 680px) {
+  .container {
+    flex-flow: column;
+    flex-wrap: wrap;
+  }
+
+  .box1 {
+    max-width: 80%;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .result {
+    max-width: 100%;
+    max-height: auto;
+    margin: 20px 0 20px 0;
+  }
 }
