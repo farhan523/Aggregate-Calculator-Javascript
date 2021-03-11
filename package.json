@@ -1,7 +1,0 @@
-{
-  "name": "Aggregate-Calculator-Javascript",
-  "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
-  }
-}
