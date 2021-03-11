@@ -769,7 +769,7 @@ let marks6value = marks6.value;
       
       let z = (a+b+c+d+h+f)/6
     
-        let l = z.toFixed(3)
+        let l = Math.round(z * 100) / 100;
       gpa.textContent = l;
 
 
