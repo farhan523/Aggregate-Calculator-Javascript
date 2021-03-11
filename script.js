@@ -463,7 +463,7 @@ let marks6value = marks6.value;
         if(marks5value == 40){
             mk5.textContent = 1.00
         }
-        else if(marks5value > 80){
+        else if(marks5value >= 80){
             mk5.textContent =4.00
         }
         else if(marks5value < 40){
