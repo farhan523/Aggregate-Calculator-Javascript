@@ -134,7 +134,7 @@ let marks6value = marks6.value;
         } else if(marks1value == 75){
             mk1.textContent =3.67
         } else if(marks1value == 76){
-            mk1.textContent == 3.74
+            mk1.textContent = 3.74
         } else if(marks1value == 77){
             mk1.textContent =3.80
         } else if(marks1value == 78){
@@ -235,7 +235,7 @@ let marks6value = marks6.value;
         } else if(marks2value == 75){
             mk2.textContent =3.67
         } else if(marks2value == 76){
-            mk2.textContent == 3.74
+            mk2.textContent = 3.74
         } else if(marks2value == 77){
             mk2.textContent =3.80
         } else if(marks2value == 78){
@@ -337,7 +337,7 @@ let marks6value = marks6.value;
         } else if(marks3value == 75){
             mk3.textContent =3.67
         } else if(marks3value == 76){
-            mk3.textContent == 3.74
+            mk3.textContent = 3.74
         } else if(marks3value == 77){
             mk3.textContent =3.80
         } else if(marks3value == 78){
@@ -439,7 +439,7 @@ let marks6value = marks6.value;
         } else if(marks4value == 75){
             mk4.textContent =3.67
         } else if(marks4value == 76){
-            mk4.textContent == 3.74
+            mk4.textContent = 3.74
         } else if(marks4value == 77){
             mk4.textContent =3.80
         } else if(marks4value == 78){
@@ -542,7 +542,7 @@ let marks6value = marks6.value;
         } else if(marks5value == 75){
             mk5.textContent =3.67
         } else if(marks5value == 76){
-            mk5.textContent == 3.74
+            mk5.textContent = 3.74
         } else if(marks5value == 77){
             mk5.textContent =3.80
         } else if(marks5value == 78){
@@ -645,7 +645,7 @@ let marks6value = marks6.value;
         } else if(marks6value == 75){
             mk6.textContent =3.67
         } else if(marks6value == 76){
-            mk6.textContent == 3.74
+            mk6.textContent = 3.74
         } else if(marks6value == 77){
             mk6.textContent =3.80
         } else if(marks6value == 78){
