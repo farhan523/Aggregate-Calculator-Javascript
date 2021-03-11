@@ -760,17 +760,30 @@ let marks6value = marks6.value;
             g6.textContent = 'A'
         }
 
-       let a = parseInt(mk1.textContent);
-       let b = parseInt(mk2.textContent);
-       let c = parseInt(mk3.textContent);
-       let d = parseInt(mk4.textContent);
-       let h = parseInt(mk5.textContent);
-       let f = parseInt(mk6.textContent);
+       let j = parseFloat(mk1.textContent);
+       let b = parseFloat(mk2.textContent);
+       let c = parseFloat(mk3.textContent);
+       let d = parseFloat(mk4.textContent);
+       let h = parseFloat(mk5.textContent);
+       let f = parseFloat(mk6.textContent);
+
+        j= j*3;
+        b=b*3;
+        c=c*3;
+        d=d*2;
+        h=h*3;
+        f = f*4;
       
-      let z = (a+b+c+d+h+f)/6
+      
+      let z = (j+b+c+d+h+f)/18
     
-        let l = Math.round(z * 100) / 100;
-      gpa.textContent = l;
+      function roundoff_2(num) {
+        return Math.round(num * 100) / 100;
+    }
+    
+    let res = roundoff_2(z);
+    
+      gpa.textContent = res;
 
 
 result.style.display = "block"  
