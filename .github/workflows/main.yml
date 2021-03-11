@@ -30,4 +30,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./ http://gpa-calculator-uos.surge.sh/ --token ${{ secrets.v2 }}
+        run: surge ./ gpa-UOS-calculator.surge.sh --token ${{ secrets.v2 }}
