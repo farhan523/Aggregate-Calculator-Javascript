@@ -3,14 +3,14 @@ const form = document.querySelector('.marks-form');
 let marks1 = document.querySelector('#marks1')
 let marks2 = document.querySelector('#marks2')
 let marks3= document.querySelector('#marks3')
-let marks4 = document.querySelector('#marks4')
+let marks4 = document.querySelector('#marks3')
 let marks5 = document.querySelector('#marks5')
 let marks6 = document.querySelector('#marks6')
 
 let mk1 = document.querySelector('#mk1')
 let mk2 = document.querySelector('#mk2')
 let mk3 = document.querySelector('#mk3')
-let mk4 = document.querySelector('#mk4')
+let mk4 = document.querySelector('#mk3')
 let mk5 = document.querySelector('#mk5')
 let mk6 = document.querySelector('#mk6')
 
@@ -18,7 +18,7 @@ let mk6 = document.querySelector('#mk6')
 let g1 = document.querySelector('#g1')
 let g2 = document.querySelector('#g2')
 let g3 = document.querySelector('#g3')
-let g4 = document.querySelector('#g4')
+let g4 = document.querySelector('#g3')
 let g5 = document.querySelector('#g5')
 let g6 = document.querySelector('#g6')
 
@@ -775,7 +775,7 @@ let marks6value = marks6.value;
         f = f*4;
       
       
-      let z = (j+b+c+d+h+f)/18
+      let z = (j+b+c+h+f)/16
     
       function roundoff_2(num) {
         return Math.round(num * 100) / 100;
